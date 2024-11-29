@@ -60,6 +60,9 @@ library
 
     -- Modules exported by the library.
     exposed-modules:  BlogApp.Core
+                    , BlogApp.HTML
+                    , BlogApp.Query
+                    , BlogApp.Types
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -72,6 +75,8 @@ library
                     , text
                     , scotty
                     , sqlite-simple
+                    , blaze-html
+                    , blaze-markup
 
     -- Directories containing source files.
     hs-source-dirs:   src

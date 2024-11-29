@@ -20,6 +20,26 @@
   (major1) == 4 && (major2) <  18 || \
   (major1) == 4 && (major2) == 18 && (minor) <= 2)
 #endif /* MIN_VERSION_base */
+/* package blaze-html-0.9.2.0 */
+#ifndef VERSION_blaze_html
+#define VERSION_blaze_html "0.9.2.0"
+#endif /* VERSION_blaze_html */
+#ifndef MIN_VERSION_blaze_html
+#define MIN_VERSION_blaze_html(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  9 || \
+  (major1) == 0 && (major2) == 9 && (minor) <= 2)
+#endif /* MIN_VERSION_blaze_html */
+/* package blaze-markup-0.8.3.0 */
+#ifndef VERSION_blaze_markup
+#define VERSION_blaze_markup "0.8.3.0"
+#endif /* VERSION_blaze_markup */
+#ifndef MIN_VERSION_blaze_markup
+#define MIN_VERSION_blaze_markup(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  8 || \
+  (major1) == 0 && (major2) == 8 && (minor) <= 3)
+#endif /* MIN_VERSION_blaze_markup */
 /* package scotty-0.22 */
 #ifndef VERSION_scotty
 #define VERSION_scotty "0.22"
